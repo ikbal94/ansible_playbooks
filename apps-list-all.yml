@@ -1,0 +1,12 @@
+---
+
+- hosts: all
+  gather_facts: false
+  tasks:
+  - name: Get app lists
+    include_role:
+      name: applist-action
+    vars:
+      applist: []
+      applist_action: list
+      applist_action_verbose: true

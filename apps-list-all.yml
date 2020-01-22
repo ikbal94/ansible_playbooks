@@ -10,3 +10,7 @@
       applist: []
       applist_action: list
       applist_action_verbose: true
+      
+  - debug:
+    msg: Testing 
+    

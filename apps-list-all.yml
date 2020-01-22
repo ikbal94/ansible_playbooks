@@ -12,5 +12,5 @@
       applist_action_verbose: true
       
   - debug:
-    msg: Testing 
+      msg: Testing 
     
